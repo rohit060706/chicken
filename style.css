@@ -344,3 +344,31 @@ footer p{
     font-size: 20px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    video {
+        width: 90%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .cart-container {
+        width: 90%;
+        right: 5%;
+        top: 100px;
+    }
+}
