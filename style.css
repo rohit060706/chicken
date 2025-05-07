@@ -346,9 +346,15 @@ footer p{
 }
 
 @media (max-width: 768px) {
+
+    body {
+        background-size: cover;
+    }
+
     #navbar {
         flex-direction: column;
-        margin-left: 0;
+        margin-left: -70px;
+        justify-content: space-between;
     }
 
     .container {
@@ -356,12 +362,26 @@ footer p{
         align-items: center;
     }
 
-    video {
+    .details-panel-1 {
         width: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    video {
+        width: 80%;
         height: auto;
         margin-left: 30px;
     }
 
+    .logo img {
+        position: relative;
+        right: 180px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
 
 }
 
