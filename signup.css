@@ -227,4 +227,7 @@ footer p{
         right: 5%;
         top: 100px;
     }
+    .hero input {
+    padding: 5px 10px 5px 5px;
+    }
 }
